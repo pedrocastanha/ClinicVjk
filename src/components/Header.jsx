@@ -43,31 +43,31 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('inicio')}
-              className="text-gray-700 hover:text-amber-600 transition-colors smooth-transition font-medium"
+              className="text-gray-700 hover:text-blue-600 transition-colors smooth-transition font-medium hover-elegant px-3 py-2 rounded-lg"
             >
               Início
             </button>
             <button 
               onClick={() => scrollToSection('sobre')}
-              className="text-gray-700 hover:text-amber-600 transition-colors smooth-transition font-medium"
+              className="text-gray-700 hover:text-blue-600 transition-colors smooth-transition font-medium hover-elegant px-3 py-2 rounded-lg"
             >
               Sobre
             </button>
             <button 
               onClick={() => scrollToSection('servicos')}
-              className="text-gray-700 hover:text-amber-600 transition-colors smooth-transition font-medium"
+              className="text-gray-700 hover:text-blue-600 transition-colors smooth-transition font-medium hover-elegant px-3 py-2 rounded-lg"
             >
               Serviços
             </button>
             <button 
               onClick={() => scrollToSection('contato')}
-              className="text-gray-700 hover:text-amber-600 transition-colors smooth-transition font-medium"
+              className="text-gray-700 hover:text-blue-600 transition-colors smooth-transition font-medium hover-elegant px-3 py-2 rounded-lg"
             >
               Contato
             </button>
             <Button 
               onClick={() => window.location.href = '/area-cliente'}
-              className="gradient-gold text-white hover:opacity-90 smooth-transition"
+              className="gradient-sophisticated text-white hover-button smooth-transition px-6 py-2"
             >
               Área do Cliente
             </Button>
@@ -122,20 +122,20 @@ const Header = () => {
       </div>
 
       {/* Contact Bar */}
-      <div className="bg-gradient-to-r from-amber-600 to-orange-500 text-white py-2">
+      <div className="bg-gradient-sophisticated text-white py-2">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-center md:justify-between text-sm space-y-2 md:space-y-0">
             <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-2 hover-fade smooth-transition">
                 <Phone size={16} />
                 <span>(44) 9 9115-3836</span>
               </div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-2 hover-fade smooth-transition">
                 <MapPin size={16} />
                 <span>Av. Gastão Vidigal, 634 - Maringá/PR</span>
               </div>
             </div>
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 hover-scale smooth-transition">
               <Instagram size={16} />
               <a 
                 href="https://www.instagram.com/emilyvujanski/" 

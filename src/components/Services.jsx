@@ -92,7 +92,7 @@ const Services = () => {
                 
                 <Button 
                   variant="outline" 
-                  className="w-full border-amber-500 text-amber-700 hover:bg-amber-50"
+                  className="w-full border-amber-500 text-amber-700 hover:bg-amber-50 cursor-pointer smooth-transition"
                 >
                   Saiba Mais
                   <ArrowRight className="ml-2" size={16} />

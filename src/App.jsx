@@ -12,7 +12,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-white to-orange-50">
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-gray-50 to-stone-50">
         <Routes>
           <Route path="/area-cliente" element={<ClientArea />} />
           <Route path="/" element={
