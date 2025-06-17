@@ -1,0 +1,146 @@
+import React from 'react';
+import { Heart, Phone, MapPin, Instagram, Mail } from 'lucide-react';
+import logoImage from '../assets/images/image.png';
+
+const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="bg-gray-900 text-white py-16">
+      <div className="container mx-auto px-4">
+        <div className="grid md:grid-cols-4 gap-8">
+          {/* Logo and Description */}
+          <div className="md:col-span-2 space-y-6">
+            <div className="flex items-center space-x-3">
+              <img 
+                src={logoImage} 
+                alt="Emily Vujanski" 
+                className="h-12 w-auto object-contain filter brightness-0 invert"
+              />
+            </div>
+            <p className="text-gray-300 leading-relaxed max-w-md">
+              Cuidados especializados em nutrição e estética para revelar sua melhor versão. 
+              Tratamentos personalizados com ciência e dedicação.
+            </p>
+            <div className="flex space-x-4">
+              <a 
+                href="https://www.instagram.com/emilyvujanski/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-amber-600 rounded-full flex items-center justify-center hover:bg-amber-700 transition-colors"
+              >
+                <Instagram size={20} />
+              </a>
+              <a 
+                href="https://wa.me/5544991153836" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition-colors"
+              >
+                <Phone size={20} />
+              </a>
+            </div>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h4 className="text-lg font-bold mb-6 gradient-gold-text">Serviços</h4>
+            <ul className="space-y-3 text-gray-300">
+              <li>
+                <a href="#servicos" className="hover:text-amber-400 transition-colors">
+                  Consulta Nutricional
+                </a>
+              </li>
+              <li>
+                <a href="#servicos" className="hover:text-amber-400 transition-colors">
+                  Nutrição Esportiva
+                </a>
+              </li>
+              <li>
+                <a href="#servicos" className="hover:text-amber-400 transition-colors">
+                  Reeducação Alimentar
+                </a>
+              </li>
+              <li>
+                <a href="#servicos" className="hover:text-amber-400 transition-colors">
+                  Criolipólise
+                </a>
+              </li>
+              <li>
+                <a href="#servicos" className="hover:text-amber-400 transition-colors">
+                  Tratamentos Faciais
+                </a>
+              </li>
+              <li>
+                <a href="#servicos" className="hover:text-amber-400 transition-colors">
+                  Drenagem Linfática
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact Info */}
+          <div>
+            <h4 className="text-lg font-bold mb-6 gradient-gold-text">Contato</h4>
+            <div className="space-y-4 text-gray-300">
+              <div className="flex items-start space-x-3">
+                <Phone className="text-amber-400 mt-1 flex-shrink-0" size={16} />
+                <div>
+                  <p>(44) 9 9115-3836</p>
+                  <p className="text-sm text-gray-400">WhatsApp</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start space-x-3">
+                <MapPin className="text-amber-400 mt-1 flex-shrink-0" size={16} />
+                <div>
+                  <p>Av. Gastão Vidigal, 634</p>
+                  <p>Zona 08, Maringá - PR</p>
+                  <p>CEP: 87050-590</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-3">
+                <Instagram className="text-amber-400 mt-1 flex-shrink-0" size={16} />
+                <div>
+                  <p>@emilyvujanski</p>
+                  <p className="text-sm text-gray-400">Siga-nos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Section */}
+        <div className="border-t border-gray-800 mt-12 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div className="text-gray-400 text-sm">
+              © {currentYear} Emily Vujanski - Nutrição & Estética. Todos os direitos reservados.
+            </div>
+            
+            <div className="flex items-center space-x-6 text-sm text-gray-400">
+              <a href="/area-cliente" className="hover:text-amber-400 transition-colors">
+                Área do Cliente
+              </a>
+              <span>•</span>
+              <span>CRN-8 12345</span>
+              <span>•</span>
+              <span>CRM-PR 67890</span>
+            </div>
+          </div>
+          
+          <div className="text-center mt-6 text-gray-500 text-sm">
+            <p className="flex items-center justify-center space-x-2">
+              <span>Feito com</span>
+              <Heart className="text-red-500" size={16} />
+              <span>para cuidar de você</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
+
