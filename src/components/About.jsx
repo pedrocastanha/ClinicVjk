@@ -10,21 +10,12 @@ const About = () => {
           <div className="relative">
             <div className="relative z-10">
               <div className="aspect-[4/5] rounded-3xl overflow-hidden bg-gradient-to-br from-amber-100 to-orange-100 p-6">
-                <div className="w-full h-full rounded-2xl bg-white shadow-xl flex items-center justify-center">
-                  <div className="text-center space-y-6 p-8">
-                    <div className="w-40 h-40 mx-auto rounded-full gradient-gold flex items-center justify-center">
-                      <span className="text-5xl font-bold text-white">EV</span>
-                    </div>
-                    <div>
-                      <h3 className="text-3xl font-bold text-gray-800 mb-2">Dra. Emily Vujanski</h3>
-                      <p className="text-lg text-gray-600 mb-4">CRN-8 12345 | CRM-PR 67890</p>
-                      <div className="space-y-2 text-sm text-gray-500">
-                        <p>Nutricionista Clínica</p>
-                        <p>Especialista em Estética</p>
-                        <p>Pós-graduada em Nutrição Esportiva</p>
-                      </div>
-                    </div>
-                  </div>
+                <div className="w-full h-full rounded-2xl bg-white shadow-xl flex items-center justify-center overflow-hidden">
+                  <img 
+                    src="/assets/img/6657_no_bg.png" 
+                    alt="Dra. Emily Vujanski" 
+                    className="w-full h-full object-cover object-center"
+                  />
                 </div>
               </div>
             </div>

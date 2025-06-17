@@ -1,47 +1,56 @@
 import React from 'react';
-import { Apple, Zap, Droplets, Sparkles, ArrowRight } from 'lucide-react';
+import { Apple, Zap, Droplets, Sparkles, ArrowRight, Heart, Leaf, Dumbbell } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useNavigate } from 'react-router-dom';
 
 const Services = () => {
+  const navigate = useNavigate();
+
   const nutritionServices = [
     {
       icon: Apple,
-      title: "Consulta Nutricional",
-      description: "Avaliação completa e plano alimentar personalizado para seus objetivos.",
-      features: ["Anamnese detalhada", "Plano alimentar", "Acompanhamento mensal"]
+      title: "Nutrição Clínica",
+      description: "Transforme sua saúde através de uma alimentação personalizada e cientificamente embasada.",
+      features: ["Avaliação completa", "Plano personalizado", "Acompanhamento contínuo"],
+      link: "nutricao-clinica"
     },
     {
-      icon: Zap,
+      icon: Dumbbell,
       title: "Nutrição Esportiva",
-      description: "Estratégias nutricionais para otimizar performance e recuperação.",
-      features: ["Periodização nutricional", "Suplementação", "Acompanhamento de treinos"]
+      description: "Maximize seu desempenho atlético com estratégias nutricionais avançadas.",
+      features: ["Periodização nutricional", "Otimização de performance", "Recuperação acelerada"],
+      link: "nutricao-esportiva"
     },
     {
-      icon: Sparkles,
+      icon: Heart,
       title: "Reeducação Alimentar",
-      description: "Mudança de hábitos alimentares de forma sustentável e prazerosa.",
-      features: ["Educação nutricional", "Receitas saudáveis", "Suporte contínuo"]
+      description: "Desenvolva uma relação saudável e sustentável com a comida para toda a vida.",
+      features: ["Mudança de hábitos", "Educação nutricional", "Resultados duradouros"],
+      link: "reeducacao-alimentar"
     }
   ];
 
   const aestheticServices = [
     {
-      icon: Droplets,
-      title: "Criolipólise",
-      description: "Redução de gordura localizada através do congelamento controlado.",
-      features: ["Não invasivo", "Sem tempo de recuperação", "Resultados duradouros"]
+      icon: Sparkles,
+      title: "Harmonização Facial",
+      description: "Realce sua beleza natural com técnicas avançadas e resultados harmoniosos.",
+      features: ["Procedimentos minimamente invasivos", "Resultados naturais", "Técnicas avançadas"],
+      link: "harmonizacao-facial"
     },
     {
-      icon: Sparkles,
-      title: "Tratamentos Faciais",
-      description: "Cuidados especializados para rejuvenescimento e saúde da pele.",
-      features: ["Limpeza profunda", "Hidratação", "Anti-aging"]
+      icon: Leaf,
+      title: "Rejuvenescimento Facial",
+      description: "Recupere a juventude da sua pele com tratamentos avançados e personalizados.",
+      features: ["Estímulo de colágeno", "Redução de rugas", "Pele mais firme"],
+      link: "rejuvenescimento-facial"
     },
     {
       icon: Zap,
-      title: "Drenagem Linfática",
-      description: "Técnica manual para redução de inchaço e melhora da circulação.",
-      features: ["Reduz retenção", "Melhora circulação", "Relaxamento"]
+      title: "Tratamento de Acne",
+      description: "Conquiste uma pele limpa e saudável com protocolos específicos e eficazes.",
+      features: ["Controle da oleosidade", "Redução de lesões", "Prevenção de cicatrizes"],
+      link: "tratamento-acne"
     }
   ];
 
@@ -93,6 +102,7 @@ const Services = () => {
                 <Button 
                   variant="outline" 
                   className="w-full border-amber-500 text-amber-700 hover:bg-amber-50 cursor-pointer smooth-transition"
+                  onClick={() => navigate(`/tratamento/${service.link}`)}
                 >
                   Saiba Mais
                   <ArrowRight className="ml-2" size={16} />
@@ -136,6 +146,7 @@ const Services = () => {
                 <Button 
                   variant="outline" 
                   className="w-full border-amber-500 text-amber-700 hover:bg-amber-50"
+                  onClick={() => navigate(`/tratamento/${service.link}`)}
                 >
                   Saiba Mais
                   <ArrowRight className="ml-2" size={16} />

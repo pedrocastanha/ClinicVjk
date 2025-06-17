@@ -31,7 +31,7 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Informações de Contato</h3>
               
-              <div className="space-y-6">
+              <div className="grid grid-cols-2 gap-6">
                 {/* Phone */}
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 gradient-gold rounded-full flex items-center justify-center flex-shrink-0">
@@ -57,6 +57,18 @@ const Contact = () => {
                   </div>
                 </div>
 
+                {/* Instagram */}
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 gradient-gold rounded-full flex items-center justify-center flex-shrink-0">
+                    <Instagram className="text-white" size={20} />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-1">Instagram</h4>
+                    <p className="text-gray-600">@emilyvujanski</p>
+                    <p className="text-sm text-gray-500">Acompanhe dicas e novidades</p>
+                  </div>
+                </div>
+
                 {/* Hours */}
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 gradient-gold rounded-full flex items-center justify-center flex-shrink-0">
@@ -71,61 +83,44 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-
-                {/* Instagram */}
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 gradient-gold rounded-full flex items-center justify-center flex-shrink-0">
-                    <Instagram className="text-white" size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">Instagram</h4>
-                    <p className="text-gray-600">@emilyvujanski</p>
-                    <p className="text-sm text-gray-500">Acompanhe dicas e novidades</p>
-                  </div>
-                </div>
               </div>
             </div>
 
             {/* Action Buttons */}
-            <div className="space-y-4">
+            <div className="flex gap-4">
               <Button 
                 onClick={handleWhatsApp}
-                className="w-full bg-green-600 hover:bg-green-700 text-white py-4 text-lg smooth-transition hover-lift"
+                className="flex-1 bg-green-600 hover:bg-green-700 text-white py-3 text-base smooth-transition hover-lift"
               >
-                <MessageCircle className="mr-3" size={20} />
-                Conversar no WhatsApp
+                <MessageCircle className="mr-2" size={18} />
+                Agendar atendimento
               </Button>
               
               <Button 
                 onClick={handleInstagram}
                 variant="outline"
-                className="w-full border-2 border-pink-500 text-pink-600 hover:bg-pink-50 py-4 text-lg smooth-transition hover-lift"
+                className="flex-1 border-2 border-pink-500 text-pink-600 hover:bg-pink-50 py-3 text-base smooth-transition hover-lift"
               >
-                <Instagram className="mr-3" size={20} />
-                Seguir no Instagram
+                <Instagram className="mr-2" size={18} />
+                Seguir no instagram
               </Button>
             </div>
           </div>
 
           {/* Map and Additional Info */}
           <div className="space-y-8">
-            {/* Map Placeholder */}
-            <div className="bg-gradient-to-br from-amber-100 to-orange-100 rounded-2xl p-8 h-80 flex items-center justify-center">
-              <div className="text-center space-y-4">
-                <MapPin className="mx-auto text-amber-600" size={48} />
-                <h4 className="text-xl font-bold text-gray-800">Localização</h4>
-                <p className="text-gray-600">
-                  Estamos localizados na Av. Gastão Vidigal, 634<br />
-                  Zona 08, Maringá - PR
-                </p>
-                <Button 
-                  variant="outline"
-                  className="border-amber-500 text-amber-700 hover:bg-amber-50"
-                  onClick={() => window.open('https://maps.google.com/?q=Av.+Gastão+Vidigal,+634,+Maringá,+PR', '_blank')}
-                >
-                  Ver no Google Maps
-                </Button>
-              </div>
+            {/* Google Maps */}
+            <div className="bg-gradient-to-br from-amber-100 to-orange-100 rounded-2xl p-2 h-80">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.5!2d-51.9081439!3d-23.4349522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecd0910f55c429%3A0xeb6a4b2fe2b711b3!2sAv.%20Gast%C3%A3o%20Vidigal%2C%20634%20-%20Zona%2008%2C%20Maring%C3%A1%20-%20PR%2C%2087050-440%2C%20Brazil!5e0!3m2!1sen!2sbr!4v1000000000000!5m2!1sen!2sbr"
+                width="100%"
+                height="100%"
+                style={{ border: 0, borderRadius: '12px' }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Localização da Clínica Emily Vujanski"
+              ></iframe>
             </div>
 
             {/* Additional Information */}
