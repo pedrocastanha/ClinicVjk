@@ -7,6 +7,7 @@ import logoImage from '../assets/images/image.png';
 import nutritionGuideImage from '../assets/images/document-nutrition-guide.png';
 import saucesGuideImage from '../assets/images/document-sauces-guide.png';
 import cryoGuideImage from '../assets/images/document-cryolipolysis-guide.png';
+import { Link } from 'react-router-dom';
 
 const ClientArea = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -222,11 +223,13 @@ const ClientArea = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
+              <Link to="/">
               <img 
-                src={logoImage} 
-                alt="Emily Vujanski" 
-                className="h-12 w-auto hover-scale smooth-transition"
-              />
+                  src={logoImage} 
+                  alt="Emily Vujanski" 
+                  className="h-12 w-auto hover-scale smooth-transition"
+               />
+              </Link>
               <div>
                 <h1 className="text-2xl font-bold text-gray-800">{title}</h1>
                 <p className="text-gray-600">{subtitle}</p>
