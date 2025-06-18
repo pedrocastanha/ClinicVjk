@@ -120,35 +120,6 @@ const Header = () => {
           </div>
         )}
       </div>
-
-      {/* Contact Bar */}
-      <div className="bg-gradient-to-r from-amber-600 to-orange-600 text-white py-2">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-center md:justify-between text-sm space-y-2 md:space-y-0">
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-                <Phone size={16} />
-                <span>(44) 9 9115-3836</span>
-              </div>
-              <div className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-                <MapPin size={16} />
-                <span>Av. Gastão Vidigal, 634 - Maringá/PR</span>
-              </div>
-            </div>
-            <div className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-              <Instagram size={16} />
-              <a 
-                href="https://www.instagram.com/emilyvujanski/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                @emilyvujanski
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
     </header>
   );
 };

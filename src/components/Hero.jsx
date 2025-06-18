@@ -90,7 +90,7 @@ const Hero = () => {
               <div className="aspect-square rounded-full overflow-hidden bg-gradient-to-br from-amber-100 to-orange-100 p-8">
                 <div className="w-full h-full rounded-full bg-white shadow-2xl flex items-center justify-center overflow-hidden">
                   <img 
-                    src="/assets/img/6633_no_bg.png" 
+                    src="src/assets/images/doutora/emily.png" 
                     alt="Dra. Emily Vujanski" 
                     className="w-full h-full object-cover object-center"
                   />

@@ -122,38 +122,6 @@ const Contact = () => {
                 title="Localização da Clínica Emily Vujanski"
               ></iframe>
             </div>
-
-            {/* Additional Information */}
-            <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-8">
-              <h4 className="text-xl font-bold text-gray-800 mb-4">Informações Importantes</h4>
-              <div className="space-y-3 text-gray-700">
-                <p className="flex items-start">
-                  <span className="w-2 h-2 bg-amber-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  Atendimento por agendamento
-                </p>
-                <p className="flex items-start">
-                  <span className="w-2 h-2 bg-amber-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  Consultas presenciais e online
-                </p>
-                <p className="flex items-start">
-                  <span className="w-2 h-2 bg-amber-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  Estacionamento disponível
-                </p>
-                <p className="flex items-start">
-                  <span className="w-2 h-2 bg-amber-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  Ambiente climatizado e confortável
-                </p>
-              </div>
-            </div>
-
-            {/* Emergency Contact */}
-            <div className="bg-red-50 border border-red-200 rounded-2xl p-6">
-              <h4 className="text-lg font-bold text-red-800 mb-2">Emergências</h4>
-              <p className="text-red-700 text-sm">
-                Para emergências médicas, procure o pronto-socorro mais próximo 
-                ou ligue para o SAMU: 192
-              </p>
-            </div>
           </div>
         </div>
       </div>

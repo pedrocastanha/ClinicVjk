@@ -12,7 +12,7 @@ const About = () => {
               <div className="aspect-[4/5] rounded-3xl overflow-hidden bg-gradient-to-br from-amber-100 to-orange-100 p-6">
                 <div className="w-full h-full rounded-2xl bg-white shadow-xl flex items-center justify-center overflow-hidden">
                   <img 
-                    src="/assets/img/6657_no_bg.png" 
+                    src="src/assets/images/doutora/IMG_6657.JPEG" 
                     alt="Dra. Emily Vujanski" 
                     className="w-full h-full object-cover object-center"
                   />
