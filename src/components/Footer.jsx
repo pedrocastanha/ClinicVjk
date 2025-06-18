@@ -6,10 +6,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white py-10">
-      <div className="container mx-auto px-4">
+    <footer className="bg-gray-800 text-white py-3">
+      <div className="container mx-auto px-10">
         <div className="grid md:grid-cols-4 gap-6">
-          {/* Logo and Description */}
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center space-x-3">
               <a href="#inicio" className="cursor-pointer hover-scale smooth-transition">
@@ -29,7 +28,7 @@ const Footer = () => {
                 href="https://www.instagram.com/emilyvujanski/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-amber-600 rounded-full flex items-center justify-center hover:bg-amber-700 transition-colors social-icon"
+                className="w-10 h-10 bg-[#E1306C] rounded-full flex items-center justify-center hover:bg-[#C13584] transition-colors"
               >
                 <Instagram size={20} />
               </a>

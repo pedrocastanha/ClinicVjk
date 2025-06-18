@@ -33,23 +33,23 @@ const Services = () => {
   const aestheticServices = [
     {
       icon: Sparkles,
-      title: "Harmonização Facial",
-      description: "Realce sua beleza natural com técnicas avançadas e resultados harmoniosos.",
+      title: "Criolipolíse",
+      description: "Realce suas curvas com técnicas avançadas que garantem resultados incríveis que valorizam sua beleza.",
       features: ["Procedimentos minimamente invasivos", "Resultados naturais", "Técnicas avançadas"],
       link: "harmonizacao-facial"
     },
     {
       icon: Leaf,
-      title: "Rejuvenescimento Facial",
-      description: "Recupere a juventude da sua pele com tratamentos avançados e personalizados.",
-      features: ["Estímulo de colágeno", "Redução de rugas", "Pele mais firme"],
+      title: "Drenagem Linfática",
+      description: "Melhore sua circulação e reduza o inchaço com técnicas especializadas de drenagem linfática.",
+      features: ["Redução de inchaço", "Melhora da circulação", "Relaxamento e bem-estar"],
       link: "rejuvenescimento-facial"
     },
     {
       icon: Zap,
-      title: "Tratamento de Acne",
-      description: "Conquiste uma pele limpa e saudável com protocolos específicos e eficazes.",
-      features: ["Controle da oleosidade", "Redução de lesões", "Prevenção de cicatrizes"],
+      title: "Massagem Relaxante e Modeladora",
+      description: "Conheça e sinta a eficácia da massagem que relaxa, reduz tensões e te modela.",
+      features: ["Alívio de tensões", "Relaxamento profundo", "Modelagem corporal"],
       link: "tratamento-acne"
     }
   ];
@@ -72,7 +72,7 @@ const Services = () => {
         <div className="mb-20">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-gray-800 mb-4">
-              <Apple className="inline-block mr-3 text-green-600" size={32} />
+              <Apple className="inline-block mr-3 text-amber-500" size={32} />
               Nutrição
             </h3>
             <p className="text-lg text-gray-600">
@@ -116,7 +116,7 @@ const Services = () => {
         <div>
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-gray-800 mb-4">
-              <Sparkles className="inline-block mr-3 text-pink-600" size={32} />
+              <Sparkles className="inline-block mr-3 text-amber-500" size={32} />
               Estética
             </h3>
             <p className="text-lg text-gray-600">

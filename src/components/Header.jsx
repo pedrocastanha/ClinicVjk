@@ -30,7 +30,6 @@ const Header = () => {
     }`}>
       <div className="container mx-auto px-15 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
           <div className="flex items-center">
             <a href="#inicio" onClick={() => scrollToSection('inicio')} className="cursor-pointer">
               <img 
@@ -41,7 +40,6 @@ const Header = () => {
             </a>
           </div>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('inicio')}
@@ -75,7 +73,6 @@ const Header = () => {
             </Button>
           </nav>
 
-          {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors btn-animate"
@@ -84,7 +81,6 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden mt-4 py-4 border-t border-gray-200 mobile-nav">
             <nav className="flex flex-col space-y-4">

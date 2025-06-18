@@ -8,6 +8,7 @@ import nutritionGuideImage from '../assets/images/document-nutrition-guide.png';
 import saucesGuideImage from '../assets/images/document-sauces-guide.png';
 import cryoGuideImage from '../assets/images/document-cryolipolysis-guide.png';
 import { Link } from 'react-router-dom';
+import.meta.env.VITE_NUTRITION_ACCESS_CODE
 
 const ClientArea = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -17,10 +18,9 @@ const ClientArea = () => {
   const [selectedDocument, setSelectedDocument] = useState(null);
   const [currentDocumentIndex, setCurrentDocumentIndex] = useState(0);
 
-  // Códigos de acesso
   const ACCESS_CODES = {
-    nutricao: 'nutri2024',
-    estetica: 'estetica2024'
+    nutricao: import.meta.env.VITE_NUTRITION_ACCESS_CODE,
+    estetica: import.meta.env.VITE_ESTETICA_ACCESS_CODE
   };
 
   // Documentos disponíveis com imagens
@@ -102,7 +102,6 @@ const ClientArea = () => {
         url: window.location.href
       });
     } else {
-      // Fallback para navegadores que não suportam Web Share API
       navigator.clipboard.writeText(window.location.href);
       alert('Link copiado para a área de transferência!');
     }
@@ -248,10 +247,8 @@ const ClientArea = () => {
         </div>
       </div>
 
-      {/* Documents Horizontal Carousel */}
       <div className="container mx-auto px-4 py-12">
         <div className="relative">
-          {/* Navigation Arrows */}
           {documents.length > 1 && (
             <>
               <Button
@@ -259,14 +256,14 @@ const ClientArea = () => {
                 className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-lg hover-button smooth-transition"
                 size="icon"
               >
-                <ChevronLeft size={24} />
+                <ChevronLeft size={24} color="black"/>
               </Button>
               <Button
                 onClick={() => setCurrentDocumentIndex((currentDocumentIndex + 1) % documents.length)}
                 className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white shadow-lg hover-button smooth-transition"
                 size="icon"
               >
-                <ChevronRight size={24} />
+                <ChevronRight size={24} color="black"/>
               </Button>
             </>
           )}
@@ -348,17 +345,6 @@ const ClientArea = () => {
                 </div>
               </div>
             )}
-          </div>
-
-          {/* Add New Document Button */}
-          <div className="text-center mt-8">
-            <Button
-              variant="outline"
-              className="border-dashed border-2 border-gray-300 text-gray-600 hover:border-blue-500 hover:text-blue-600 hover-elegant smooth-transition px-8 py-4"
-            >
-              <Plus className="mr-2" size={20} />
-              Adicionar Novo Documento
-            </Button>
           </div>
         </div>
       </div>
