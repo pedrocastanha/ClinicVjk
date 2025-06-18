@@ -196,7 +196,7 @@ const ClientArea = () => {
 
               <Button 
                 type="submit" 
-                className="w-full gradient-sophisticated text-white py-3 text-lg hover-button smooth-transition"
+                className="w-full gradient-gold text-white py-3 text-lg hover-button smooth-transition"
                 disabled={!clientType || !accessCode}
               >
                 <Lock className="mr-2" size={20} />
@@ -299,7 +299,7 @@ const ClientArea = () => {
                       <div className="flex flex-col sm:flex-row gap-4">
                         <Button
                           onClick={() => openDocument(documents[currentDocumentIndex], currentDocumentIndex)}
-                          className="flex-1 gradient-sophisticated text-white py-3 hover-button smooth-transition"
+                          className="flex-1 gradient-gold text-white py-3 client-action-button"
                         >
                           <Eye className="mr-2" size={20} />
                           Visualizar
@@ -309,7 +309,7 @@ const ClientArea = () => {
                           <Button
                             onClick={() => downloadDocument(documents[currentDocumentIndex].file)}
                             variant="outline"
-                            className="border-green-500 text-green-600 hover:bg-green-50 hover-button smooth-transition"
+                            className="border-green-500 text-green-600 hover:bg-green-50 client-action-button"
                             size="icon"
                           >
                             <Download size={20} />
@@ -318,7 +318,7 @@ const ClientArea = () => {
                           <Button
                             onClick={() => shareDocument(documents[currentDocumentIndex])}
                             variant="outline"
-                            className="border-blue-500 text-blue-600 hover:bg-blue-50 hover-button smooth-transition"
+                            className="border-blue-500 text-blue-600 hover:bg-blue-50 client-action-button"
                             size="icon"
                           >
                             <Share2 size={20} />

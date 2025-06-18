@@ -1,22 +1,24 @@
 import React from 'react';
 import { Heart, Phone, MapPin, Instagram, Mail } from 'lucide-react';
-import logoImage from '../assets/images/logoprincipal.png';
+import logoImage from '../assets/images/logo_nova.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white py-16">
+    <footer className="bg-gray-900 text-white py-10">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-4 gap-6">
           {/* Logo and Description */}
-          <div className="md:col-span-2 space-y-6">
+          <div className="md:col-span-2 space-y-4">
             <div className="flex items-center space-x-3">
-              <img 
-                src={logoImage} 
-                alt="Emily Vujanski" 
-                className="h-12 w-auto object-contain filter brightness-0 invert"
-              />
+              <a href="#inicio" className="cursor-pointer hover-scale smooth-transition">
+                <img 
+                  src={logoImage} 
+                  alt="Emily Vujanski" 
+                  className="h-16 md:h-16 sm:h-12 w-auto object-contain filter brightness-0 invert footer-logo"
+                />
+              </a>
             </div>
             <p className="text-gray-300 leading-relaxed max-w-md">
               Cuidados especializados em nutrição e estética para revelar sua melhor versão. 
@@ -27,7 +29,7 @@ const Footer = () => {
                 href="https://www.instagram.com/emilyvujanski/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-amber-600 rounded-full flex items-center justify-center hover:bg-amber-700 transition-colors"
+                className="w-10 h-10 bg-amber-600 rounded-full flex items-center justify-center hover:bg-amber-700 transition-colors social-icon"
               >
                 <Instagram size={20} />
               </a>
@@ -35,7 +37,7 @@ const Footer = () => {
                 href="https://wa.me/5544991153836?text=Ol%C3%A1%2C%20Emily!%20Vim%20pelo%20site%2C%20e%20gostaria%20de%20agendar%20uma%20consulta." 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition-colors"
+                className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition-colors social-icon"
               >
                 <Phone size={20} />
               </a>
@@ -44,35 +46,35 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-bold mb-6 gradient-gold-text">Serviços</h4>
+            <h4 className="text-lg font-bold mb-4 gradient-gold-text">Serviços</h4>
             <ul className="space-y-3 text-gray-300">
               <li>
-                <a href="#servicos" className="hover:text-amber-400 transition-colors">
+                <a href="#servicos" className="hover:text-amber-400 transition-colors link-animate">
                   Consulta Nutricional
                 </a>
               </li>
               <li>
-                <a href="#servicos" className="hover:text-amber-400 transition-colors">
+                <a href="#servicos" className="hover:text-amber-400 transition-colors link-animate">
                   Nutrição Esportiva
                 </a>
               </li>
               <li>
-                <a href="#servicos" className="hover:text-amber-400 transition-colors">
+                <a href="#servicos" className="hover:text-amber-400 transition-colors link-animate">
                   Reeducação Alimentar
                 </a>
               </li>
               <li>
-                <a href="#servicos" className="hover:text-amber-400 transition-colors">
+                <a href="#servicos" className="hover:text-amber-400 transition-colors link-animate">
                   Criolipólise
                 </a>
               </li>
               <li>
-                <a href="#servicos" className="hover:text-amber-400 transition-colors">
+                <a href="#servicos" className="hover:text-amber-400 transition-colors link-animate">
                   Tratamentos Faciais
                 </a>
               </li>
               <li>
-                <a href="#servicos" className="hover:text-amber-400 transition-colors">
+                <a href="#servicos" className="hover:text-amber-400 transition-colors link-animate">
                   Drenagem Linfática
                 </a>
               </li>
@@ -81,7 +83,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-bold mb-6 gradient-gold-text">Contato</h4>
+            <h4 className="text-lg font-bold mb-4 gradient-gold-text">Contato</h4>
             <div className="space-y-4 text-gray-300">
               <div className="flex items-start space-x-3">
                 <Phone className="text-amber-400 mt-1 flex-shrink-0" size={16} />
@@ -112,14 +114,14 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-gray-800 mt-12 pt-8">
+        <div className="border-t border-gray-800 mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
               © {currentYear} Emily Vujanski - Nutrição & Estética. Todos os direitos reservados.
             </div>
             
             <div className="flex items-center space-x-6 text-sm text-gray-400">
-              <a href="/area-cliente" className="hover:text-amber-400 transition-colors">
+              <a href="/area-cliente" className="hover:text-amber-400 transition-colors link-animate">
                 Área do Cliente
               </a>
               <span>•</span>

@@ -230,3 +230,122 @@
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(135deg, #DAA520, #FFD700);
 }
+
+/* Estilos globais para cursor pointer e animações */
+button, a, .clickable, [role="button"] {
+  cursor: pointer !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+button:hover, a:hover, .clickable:hover, [role="button"]:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
+
+/* Animação específica para botões */
+.btn-animate {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-animate:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Animação para links */
+.link-animate {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.link-animate:hover {
+  transform: translateY(-1px);
+  color: #d4af37;
+}
+
+/* Animação para ícones sociais */
+.social-icon {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  /* Header mobile */
+  .header-logo {
+    height: 60px !important;
+  }
+  
+  /* Footer mobile */
+  .footer-logo {
+    height: 48px !important;
+  }
+  
+  /* Botões mobile */
+  .btn-mobile {
+    padding: 12px 24px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  /* Navegação mobile */
+  .mobile-nav {
+    padding: 16px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Área do cliente mobile */
+  .client-area-mobile {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: linear-gradient(135deg, #8b7355 0%, #d4af37 100%);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .client-area-mobile:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+/* Estilos específicos para área do cliente */
+.client-area-button {
+  cursor: default !important;
+  transition: none !important;
+}
+
+.client-area-button:hover {
+  transform: none !important;
+  filter: none !important;
+}
+
+/* Apenas botões de ação específicos devem ter cursor pointer */
+.client-action-button {
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+
+.client-action-button:hover {
+  transform: translateY(-2px) scale(1.02) !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
