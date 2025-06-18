@@ -1,6 +1,6 @@
 import React from 'react';
 import { Heart, Phone, MapPin, Instagram, Mail } from 'lucide-react';
-import logoImage from '../assets/images/image.png';
+import logoImage from '../assets/images/logoprincipal.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -32,7 +32,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a 
-                href="https://wa.me/5544991153836" 
+                href="https://wa.me/5544991153836?text=Ol%C3%A1%2C%20Emily!%20Vim%20pelo%20site%2C%20e%20gostaria%20de%20agendar%20uma%20consulta." 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition-colors"

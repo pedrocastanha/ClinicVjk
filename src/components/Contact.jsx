@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const Contact = () => {
   const handleWhatsApp = () => {
-    window.open('https://wa.me/5544991153836', '_blank');
+    window.open('https://wa.me/5544991153836?text=Ol%C3%A1%2C%20Emily!%20Vim%20pelo%20site%2C%20e%20gostaria%20de%20agendar%20uma%20consulta.', '_blank');
   };
 
   const handleInstagram = () => {

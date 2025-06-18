@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone, MapPin, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import logoImage from '../assets/images/image.png';
+import logoImage from '../assets/images/logoprincipal.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,14 +28,14 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
     }`}>
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-15 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center">
             <img 
               src={logoImage} 
               alt="Emily Vujanski" 
-              className="h-12 w-auto object-contain"
+              className="h-20 w-30 object-contain"
             />
           </div>
 

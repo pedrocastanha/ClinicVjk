@@ -101,7 +101,7 @@ const Services = () => {
                 
                 <Button 
                   variant="outline" 
-                  className="w-full border-amber-500 text-amber-700 hover:bg-amber-50 cursor-pointer smooth-transition"
+                  className="w-full border-amber-500 text-amber-700 hover:bg-amber-50 cursor-pointer smooth-transition cursor-pointer"
                   onClick={() => navigate(`/tratamento/${service.link}`)}
                 >
                   Saiba Mais
@@ -145,7 +145,7 @@ const Services = () => {
                 
                 <Button 
                   variant="outline" 
-                  className="w-full border-amber-500 text-amber-700 hover:bg-amber-50"
+                  className="w-full border-amber-500 text-amber-700 hover:bg-amber-50 cursor-pointer "
                   onClick={() => navigate(`/tratamento/${service.link}`)}
                 >
                   Saiba Mais
