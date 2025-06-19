@@ -135,126 +135,128 @@ O processo inclui educação nutricional abrangente, onde você aprende sobre os
   // Tratamentos Estéticos
   'harmonizacao-facial': {
     title: 'Criolipolíse',
-    subtitle: 'Realce sua beleza natural com técnicas avançadas e resultados harmoniosos',
+    subtitle: 'Conquiste o corpo dos seus sonhos eliminando gordura localizada com tecnologia avançada',
     icon: React.createElement(Sparkles, { className: "text-white", size: 32 }),
     duration: '90-120 min por sessão',
     sessions: '1-3 sessões conforme necessidade',
     rating: '4.9/5 estrelas',
-    description: `A Harmonização Facial é um conjunto de procedimentos estéticos minimamente invasivos que visa equilibrar e realçar os traços naturais do rosto, promovendo uma aparência mais jovem, harmoniosa e natural. Utilizamos técnicas avançadas e produtos de alta qualidade para obter resultados excepcionais.
+    description: `A Criolipólise é um procedimento estético não invasivo que visa a redução de gordura localizada de forma eficaz. Utilizamos tecnologia de ponta para resfriar e cristalizar as células de gordura em áreas específicas do corpo. Esse processo leva à sua eliminação natural pelo sistema linfático, resultando em um contorno corporal mais definido.
 
-Nosso protocolo inclui uma análise facial detalhada, considerando a anatomia única de cada paciente, proporções faciais, expressões e desejos pessoais. Trabalhamos com preenchimento de ácido hialurônico, bioestimuladores de colágeno, toxina botulínica e outros procedimentos que promovem rejuvenescimento e harmonização.
+    Nosso protocolo de Criolipólise é adaptado às suas necessidades. Iniciamos com uma avaliação detalhada para identificar as áreas de acúmulo de gordura que mais te incomodam, como abdômen, flancos, culotes e braços. Diferente de cirurgias, a Criolipólise não exige tempo de recuperação, permitindo que você retome suas atividades diárias imediatamente.
 
-O diferencial do nosso tratamento está na abordagem conservadora e natural, sempre respeitando as características individuais e promovendo resultados que realçam a beleza natural sem criar uma aparência artificial. Cada procedimento é planejado cuidadosamente para garantir segurança, conforto e satisfação do paciente.`,
+    O diferencial da nossa abordagem é o foco em resultados naturais e harmoniosos. Nosso objetivo é realçar sua silhueta complementando sua beleza existente. Cada procedimento é planejado com precisão para garantir seu conforto, segurança e satisfação. Experimente a transformação e sinta um aumento na sua autoestima com um corpo mais esculpido.`,
     benefits: [
-      'Melhoria das proporções e simetria facial',
-      'Redução de linhas de expressão e rugas',
-      'Aumento da hidratação e firmeza da pele',
-      'Realce dos contornos naturais do rosto',
-      'Rejuvenescimento com aparência natural',
-      'Melhoria da autoestima e confiança',
-      'Resultados duradouros com manutenção adequada',
-      'Procedimentos minimamente invasivos'
+      "Redução significativa e duradoura de gordura localizada",
+    "Procedimento não invasivo, sem cortes ou agulhas",
+    "Sem tempo de recuperação, retorno imediato às atividades",
+    "Resultados visíveis em pouco tempo",
+    "Tratamento seguro e eficaz, aprovado por órgãos de saúde",
+    "Melhora notável do contorno e da definição corporal",
+    "Aumento da autoestima e da confiança pessoal",
+    "Alternativa à lipoaspiração para quem busca métodos não cirúrgicos"
     ],
     process: [
       {
-        title: 'Consulta e Análise Facial',
-        description: 'Avaliação detalhada da anatomia facial, discussão de expectativas e planejamento personalizado do tratamento.'
+        title: 'Consulta e Avaliação Corporal',
+        description: 'Avaliação detalhada da sua silhueta, discussão de expectativas e planejamento personalizado do tratamento para as áreas de gordura localizada.'
       },
       {
-        title: 'Preparação e Anestesia',
-        description: 'Preparação da pele e aplicação de anestesia tópica para garantir conforto durante o procedimento.'
+        title: 'Preparação da Área e Proteção',
+        description: 'Preparação da pele e aplicação de uma manta anticongelante para proteger a epiderme durante o resfriamento.'
       },
       {
-        title: 'Aplicação dos Procedimentos',
-        description: 'Execução técnica precisa dos tratamentos planejados, sempre priorizando segurança e naturalidade.'
+        title: 'Aplicação da Criolipólise',
+        description: 'Posicionamento do aplicador para sucção e resfriamento controlado das células de gordura, com foco na segurança e eficácia.'
       },
       {
-        title: 'Acompanhamento e Manutenção',
+        title: 'Pós-Procedimento e Acompanhamento',
         description: 'Orientações pós-procedimento e agendamento de retornos para avaliação e manutenção dos resultados.'
       }
     ]
   },
 
   'rejuvenescimento-facial': {
-    title: 'Rejuvenescimento Facial',
-    subtitle: 'Recupere a juventude da sua pele com tratamentos avançados e personalizados',
+    title: 'Drenagem Linfática',
+    subtitle: 'Revitalize seu corpo e bem‑estar com Drenagem Linfática personalizada',
     icon: React.createElement(Leaf, { className: "text-white", size: 32 }),
     duration: '60-90 min por sessão',
     sessions: '4-8 sessões recomendadas',
     rating: '4.8/5 estrelas',
-    description: `O Rejuvenescimento Facial é um programa abrangente que combina diferentes tecnologias e técnicas para combater os sinais do envelhecimento, promovendo uma pele mais jovem, firme e radiante. Nosso protocolo é personalizado conforme o tipo de pele, idade e objetivos específicos de cada paciente.
+    description: `Nosso protocolo de Drenagem Linfática alia técnicas manuais delicadas a recursos como pressoterapia e ultrassom terapêutico para acelerar a eliminação de toxinas, reduzir retenção de líquidos e trazer alívio imediato à sensação de inchaço. Cada sessão é adaptada ao seu histórico de saúde, estilo de vida e metas estéticas e funcionais.
 
-Utilizamos uma combinação de tratamentos que incluem bioestimuladores de colágeno, peelings químicos, microagulhamento, radiofrequência e outros procedimentos que estimulam a renovação celular e a produção natural de colágeno. Cada sessão é planejada para maximizar os resultados enquanto mantém o conforto e segurança.
+      Realizamos o atendimento em ambiente acolhedor, com avaliação constante dos resultados e ajustes no ritmo e intensidade das manobras, garantindo conforto e eficácia. O objetivo é otimizar a circulação linfática, favorecer a oxigenação dos tecidos e promover uma profunda sensação de leveza.
 
-O programa não se limita apenas aos procedimentos em consultório, mas inclui também um protocolo de cuidados domiciliares com produtos específicos para potencializar e manter os resultados obtidos. Nossa abordagem holística considera também fatores como nutrição, hidratação e proteção solar como elementos fundamentais para um rejuvenescimento eficaz e duradouro.`,
+      Para potencializar e prolongar os efeitos, indicamos um plano de cuidados em casa, que inclui exercícios simples de auto­drenagem, orientações sobre hidratação e alimentação detox. Nossa abordagem integrada considera ainda ajustes posturais e atividades físicas leves, assegurando resultados mais rápidos e duradouros.`,
     benefits: [
-      'Redução significativa de rugas e linhas de expressão',
-      'Melhoria da textura e qualidade da pele',
-      'Aumento da firmeza e elasticidade',
-      'Uniformização do tom da pele',
-      'Redução de manchas e hiperpigmentação',
-      'Estímulo natural da produção de colágeno',
-      'Melhoria da luminosidade e viço da pele',
-      'Resultados progressivos e naturais'
+      'Redução visível de inchaço e retenção de líquidos',
+      'Melhora da circulação linfática e sanguínea',
+      'Alívio de desconfortos e sensação de peso',
+      'Estimulação natural da eliminação de toxinas',
+      'Aumento da oxigenação e vitalidade dos tecidos',
+      'Melhora da firmeza e textura da pele',
+      'Sensação imediata de relaxamento e bem‑estar',
+      'Resultados duradouros com protocolo domiciliar'
     ],
     process: [
       {
-        title: 'Avaliação Dermatológica',
-        description: 'Análise completa da pele, identificação dos sinais de envelhecimento e planejamento do protocolo ideal.'
+        title: 'Avaliação Inicial',
+        description: 'Coletamos seu histórico de saúde, avaliamos o grau de edema e identificamos pontos de retenção de líquidos. Definimos metas personalizadas para cada região do corpo.'
       },
       {
-        title: 'Preparação da Pele',
-        description: 'Início do protocolo de preparação com produtos específicos para otimizar os resultados dos procedimentos.'
+        title: 'Sessão de Drenagem',
+        description: 'Aplicamos técnicas especiais e utilizamos equipamentos tecnológicos. Ajustamos ritmo, pressão e sequência de manobras para máxima eficiência e conforto.'
       },
       {
-        title: 'Sessões de Tratamento',
-        description: 'Realização das sessões conforme protocolo estabelecido, com monitoramento constante da evolução.'
+        title: 'Monitoramento Contínuo',
+        description: 'A cada sessão revisamos resultados por meio de métricas de redução de medidas e relatos de bem‑estar. Adaptamos o protocolo sempre que necessário, garantindo evolução constante.'
       },
       {
-        title: 'Manutenção e Cuidados',
-        description: 'Orientações para manutenção dos resultados e estabelecimento de rotina de cuidados a longo prazo.'
+        title: 'Cuidados Domiciliares',
+        description: 'Fornecemos exercícios de auto­drenagem ilustrados, dicas de hidratação estratégica e plano alimentar detox. Incluímos recomendações posturais e de atividades físicas leves para potencializar os resultados.'
       }
     ]
   },
 
   'tratamento-acne': {
-    title: 'Tratamento de Acne',
-    subtitle: 'Conquiste uma pele limpa e saudável com protocolos específicos e eficazes',
+    title: 'Massagem Relaxante e Modeladora',
+    subtitle: 'Alcance o equilíbrio perfeito entre relaxamento profundo e contornos definidos com massagem relaxante modeladora',
     icon: React.createElement(Zap, { className: "text-white", size: 32 }),
     duration: '45-60 min por sessão',
     sessions: '6-12 sessões recomendadas',
-    rating: '4.7/5 estrelas',
-    description: `O Tratamento de Acne é um programa especializado que combina abordagens tópicas, procedimentos estéticos e orientações nutricionais para combater efetivamente a acne em todas as suas formas. Nosso protocolo é adaptado conforme o grau da acne, tipo de pele e fatores individuais de cada paciente.
+    rating: '4.8/5 estrelas',
+    description: `Nossa Massagem Relaxante Modeladora combina movimentos suaves para aliviar tensões e técnicas intensivas para estimular a remodelação corporal. Adaptamos cada sessão ao seu perfil, unindo óleos aromáticos e toque terapêutico para promover bem‑estar imediato, à ações firmes de ventosas e rolls que favorecem a quebra de nódulos de gordura localizada, a drenagem de toxinas e a tonificação da pele.
 
-Utilizamos uma combinação de tratamentos que incluem limpeza de pele profunda, peelings químicos específicos, LED terapia, microagulhamento e aplicação de ativos que controlam a oleosidade e combatem a inflamação. Cada sessão é planejada para reduzir as lesões ativas e prevenir o surgimento de novas.
+O atendimento ocorre em ambiente aconchegante, com acompanhamento constante do seu conforto e das suas medidas. Ajustamos ritmo, pressão e sequência de manobras conforme sua evolução, garantindo eficiência na redução de inchaço, definição de curvas e sensação prolongada de leveza.
 
-Nosso diferencial está na abordagem integrativa, que considera não apenas o tratamento tópico, mas também fatores como alimentação, estresse, alterações hormonais e cuidados domiciliares. Fornecemos orientações completas sobre produtos adequados para uso em casa e hábitos que potencializam os resultados do tratamento.`,
+Para potencializar e prolongar os resultados, orientamos um protocolo domiciliar que inclui automassagem, alongamentos específicos, hidratação adequada e dicas nutricionais leves. Assim, promovemos um cuidado integral, unindo relaxamento, estética e saúde.`,
     benefits: [
-      'Redução significativa das lesões ativas de acne',
-      'Controle da oleosidade excessiva da pele',
-      'Melhoria da textura e aparência geral da pele',
-      'Redução de cicatrizes e marcas pós-acne',
-      'Prevenção do surgimento de novas lesões',
-      'Melhoria da autoestima e confiança',
-      'Estabelecimento de rotina de cuidados adequada',
-      'Resultados duradouros com manutenção'
+    'Alívio de tensões musculares e redução do estresse',
+    'Redução visível de medidas e definição de contornos',
+    'Melhora da circulação sanguínea e linfática',
+    'Aumento da firmeza e elasticidade da pele',
+    'Estimulação natural da eliminação de toxinas',
+    'Sensação imediata de leveza e bem‑estar',
+    'Promoção da oxigenação e revitalização dos tecidos',
+    'Estimulação da produção de endorfinas e melhora do humor',
+    'Aprimoramento da qualidade do sono e descanso profundo',
+    'Resultados duradouros com protocolo domiciliar'
     ],
     process: [
       {
-        title: 'Diagnóstico Especializado',
-        description: 'Avaliação do tipo e grau da acne, identificação de fatores desencadeantes e planejamento do tratamento.'
+        title: 'Recepção e Avaliação Personalizada',
+        description: 'Coletamos seu histórico, avaliamos níveis de tensão e pontos de gordura localizada para traçar metas de bem‑estar e contorno.'
       },
       {
-        title: 'Protocolo de Limpeza',
-        description: 'Início do tratamento com limpezas profundas e procedimentos para reduzir a inflamação e oleosidade.'
+        title: 'Preparação Sensorial',
+        description: 'Ambientação com óleos essenciais, música suave e posicionamento confortável para potencializar o relaxamento antes de iniciar as técnicas modeladoras.'
       },
       {
-        title: 'Tratamentos Específicos',
-        description: 'Aplicação de peelings, LED terapia e outros procedimentos conforme a evolução da pele.'
+        title: 'Técnicas Integradas de Toque',
+        description: 'Aplicamos movimentos longos e fluidos, intercalados com manobras firmes, uso de ventosas e rolls, ajustando intensidade conforme seu feedback para máximo conforto e eficiência.'
       },
       {
-        title: 'Manutenção e Prevenção',
-        description: 'Estabelecimento de rotina de cuidados e orientações para manter os resultados e prevenir recidivas.'
+        title: 'Protocolo Domiciliar',
+        description: 'Fornecemos exercícios de automassagem, alongamentos, orientações de hidratação e plano alimentar leve para prolongar os efeitos e consolidar resultados.'
       }
     ]
   }
