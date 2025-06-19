@@ -7,23 +7,25 @@ export const treatmentsData = {
     title: 'Nutrição Clínica',
     subtitle: 'Transforme sua saúde através de uma alimentação personalizada e cientificamente embasada',
     icon: React.createElement(Apple, { className: "text-white", size: 32 }),
-    duration: '60-90 min por consulta',
+    duration: '40-60 min por consulta',
     sessions: 'Acompanhamento contínuo',
     rating: '4.9/5 estrelas',
-    description: `A Nutrição Clínica é uma abordagem científica e personalizada que visa otimizar sua saúde através da alimentação. Nossa metodologia combina análise detalhada do seu perfil metabólico, histórico de saúde e objetivos pessoais para criar um plano nutricional único e eficaz.
+    description: `A Nutrição Clínica é uma abordagem personalizada e científica que busca otimizar a sua saúde por meio de uma alimentação adaptada às suas necessidades. Na Clínica Emily Vujanski, nosso foco é entender profundamente o seu perfil metabólico, histórico de saúde e seus objetivos pessoais para desenvolver um plano nutricional único e eficaz. Realizamos uma avaliação completa que inclui a análise da composição corporal, exames laboratoriais detalhados, a avaliação de seus hábitos alimentares e a identificação de possíveis deficiências nutricionais.
 
-Durante o processo, realizamos uma avaliação completa que inclui análise da composição corporal, exames laboratoriais, avaliação de hábitos alimentares e identificação de possíveis deficiências nutricionais. Com base nessas informações, desenvolvemos estratégias nutricionais que não apenas atendem às suas necessidades específicas, mas também se adaptam ao seu estilo de vida.
+Com base nessas informações, criamos estratégias nutricionais que atendem às suas necessidades específicas, ajustadas ao seu estilo de vida. O acompanhamento contínuo é fundamental para tratar e prevenir condições de saúde como diabetes, hipertensão, dislipidemia, síndrome metabólica, distúrbios gastrointestinais e muito mais.
 
-O acompanhamento nutricional clínico é fundamental para o tratamento e prevenção de diversas condições de saúde, incluindo diabetes, hipertensão, dislipidemia, síndrome metabólica, distúrbios gastrointestinais e muito mais. Nosso objetivo é proporcionar não apenas resultados visíveis, mas também uma melhoria significativa na sua qualidade de vida e bem-estar geral.`,
+Nosso objetivo vai além dos resultados visíveis; queremos proporcionar uma melhoria significativa na sua qualidade de vida e bem-estar geral, promovendo uma saúde mais equilibrada e uma sensação de vitalidade no dia a dia.`,
     benefits: [
       'Melhoria dos marcadores de saúde (colesterol, glicemia, pressão arterial)',
-      'Aumento da energia e disposição no dia a dia',
+      'Aumento da energia e disposição',
       'Fortalecimento do sistema imunológico',
-      'Melhoria da qualidade do sono',
-      'Redução de inflamações e dores crônicas',
-      'Otimização da função digestiva',
+      'Sono mais profundo e reparador',
+      'Melhora digestiva e redução de inchaço',
       'Prevenção de doenças crônicas',
-      'Melhoria do humor e bem-estar mental'
+      'Melhoria do humor e redução do estresse',
+      'Pele mais saudável (menos acne, rugas e oleosidade)',
+      'Redução de medidas e perda de gordura corporal',
+      'Autoestima elevada e confiança renovada'
     ],
     process: [
       {
@@ -49,7 +51,7 @@ O acompanhamento nutricional clínico é fundamental para o tratamento e preven�
     title: 'Nutrição Esportiva',
     subtitle: 'Maximize seu desempenho atlético com estratégias nutricionais avançadas e personalizadas',
     icon: React.createElement(Dumbbell, { className: "text-white", size: 32 }),
-    duration: '60-75 min por consulta',
+    duration: '45-60 min por consulta',
     sessions: 'Acompanhamento semanal/quinzenal',
     rating: '4.8/5 estrelas',
     description: `A Nutrição Esportiva é uma especialidade que foca na otimização do desempenho atlético através de estratégias nutricionais específicas. Seja você um atleta profissional, amador ou praticante de atividade física regular, nosso programa é desenvolvido para maximizar seus resultados e acelerar sua recuperação.
