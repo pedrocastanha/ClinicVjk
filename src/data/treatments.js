@@ -133,7 +133,7 @@ O processo inclui educação nutricional abrangente, onde você aprende sobre os
   },
 
   // Tratamentos Estéticos
-  'harmonizacao-facial': {
+  'criolipolise': {
     title: 'Criolipolíse',
     subtitle: 'Conquiste o corpo dos seus sonhos eliminando gordura localizada com tecnologia avançada',
     icon: React.createElement(Sparkles, { className: "text-white", size: 32 }),
@@ -175,7 +175,7 @@ O processo inclui educação nutricional abrangente, onde você aprende sobre os
     ]
   },
 
-  'rejuvenescimento-facial': {
+  'drenagem-linfatica': {
     title: 'Drenagem Linfática',
     subtitle: 'Revitalize seu corpo e bem‑estar com Drenagem Linfática personalizada',
     icon: React.createElement(Leaf, { className: "text-white", size: 32 }),
@@ -217,7 +217,7 @@ O processo inclui educação nutricional abrangente, onde você aprende sobre os
     ]
   },
 
-  'tratamento-acne': {
+  'massagem-relaxante-modeladora': {
     title: 'Massagem Relaxante e Modeladora',
     subtitle: 'Alcance o equilíbrio perfeito entre relaxamento profundo e contornos definidos com massagem relaxante modeladora',
     icon: React.createElement(Zap, { className: "text-white", size: 32 }),

@@ -36,21 +36,21 @@ const Services = () => {
       title: "Criolipolíse",
       description: "Realce suas curvas com técnicas avançadas que garantem resultados incríveis que valorizam sua beleza.",
       features: ["Procedimentos minimamente invasivos", "Resultados naturais", "Técnicas avançadas"],
-      link: "harmonizacao-facial"
+      link: "criolipolise"
     },
     {
       icon: Leaf,
       title: "Drenagem Linfática",
       description: "Melhore sua circulação e reduza o inchaço com técnicas especializadas de drenagem linfática.",
       features: ["Redução de inchaço", "Melhora da circulação", "Relaxamento e bem-estar"],
-      link: "rejuvenescimento-facial"
+      link: "drenagem-linfatica"
     },
     {
       icon: Zap,
       title: "Massagem Relaxante e Modeladora",
       description: "Conheça e sinta a eficácia da massagem que relaxa, reduz tensões e te modela.",
       features: ["Alívio de tensões", "Relaxamento profundo", "Modelagem corporal"],
-      link: "tratamento-acne"
+      link: "massagem-relaxante-modeladora"
     }
   ];
 
