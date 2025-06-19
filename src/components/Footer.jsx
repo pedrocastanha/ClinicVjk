@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-800 text-white py-3">
+    <footer className="bg-gray-800 text-white py-2">
       <div className="container mx-auto px-10">
         <div className="grid md:grid-cols-4 gap-6">
           <div className="md:col-span-2 space-y-4">
@@ -15,7 +15,7 @@ const Footer = () => {
                 <img 
                   src={logoImage} 
                   alt="Emily Vujanski" 
-                  className="h-16 md:h-16 sm:h-12 w-auto object-contain filter brightness-0 invert footer-logo"
+                  className="h-16 md:h-12 sm:h-12 w-auto object-contain filter brightness-0 invert footer-logo"
                 />
               </a>
             </div>
@@ -43,7 +43,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Services */}
           <div>
             <h4 className="text-lg font-bold mb-4 gradient-gold-text">Serviços</h4>
             <ul className="space-y-3 text-gray-300">
@@ -80,7 +79,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
           <div>
             <h4 className="text-lg font-bold mb-4 gradient-gold-text">Contato</h4>
             <div className="space-y-4 text-gray-300">
@@ -112,9 +110,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section */}
-        <div className="border-t border-gray-800 mt-8 pt-6">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+        <div className="border-t border-gray-800 mt-2 pt-6">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-2">
             <div className="text-gray-400 text-sm">
               © {currentYear} Emily Vujanski - Nutrição & Estética. Todos os direitos reservados.
             </div>
@@ -128,14 +125,6 @@ const Footer = () => {
               <span>•</span>
               <span>CRM-PR 67890</span>
             </div>
-          </div>
-          
-          <div className="text-center mt-6 text-gray-500 text-sm">
-            <p className="flex items-center justify-center space-x-2">
-              <span>Feito com</span>
-              <Heart className="text-red-500" size={16} />
-              <span>para cuidar de você</span>
-            </p>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import { Award, Heart, Users, Sparkles } from 'lucide-react';
 const About = () => {
   return (
     <section id="sobre" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
             <div className="relative z-10">

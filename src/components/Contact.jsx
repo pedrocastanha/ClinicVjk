@@ -13,7 +13,7 @@ const Contact = () => {
 
   return (
     <section id="contato" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-10">
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
