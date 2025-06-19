@@ -59,16 +59,17 @@ Nosso objetivo vai além dos resultados visíveis; queremos proporcionar uma mel
 Nossa abordagem considera não apenas o tipo de modalidade esportiva praticada, mas também a intensidade dos treinos, objetivos específicos (ganho de massa muscular, perda de gordura, melhoria da performance), horários de treino e competições. Desenvolvemos protocolos de hidratação, timing nutricional e suplementação quando necessário.
 
 O programa inclui estratégias de periodização nutricional, onde adaptamos a alimentação conforme as diferentes fases do treinamento (base, intensificação, competição e recuperação). Também fornecemos orientações específicas para pré, durante e pós-treino, garantindo que você tenha a energia necessária para treinar e os nutrientes adequados para uma recuperação otimizada.`,
-    benefits: [
-      'Aumento significativo da performance atlética',
-      'Melhoria da composição corporal (mais músculo, menos gordura)',
-      'Recuperação mais rápida entre treinos',
-      'Maior resistência e energia durante exercícios',
-      'Redução do risco de lesões',
-      'Otimização da hidratação e equilíbrio eletrolítico',
-      'Melhoria da concentração e foco durante treinos',
-      'Adaptação nutricional para diferentes fases do treinamento'
-    ],
+   benefits: [
+    'Aumento significativo da performance e resistência',
+    'Melhoria da composição corporal (definição muscular e redução de gordura)',
+    'Recuperação acelerada entre treinos',
+    'Redução do risco de lesões e fadiga',
+    'Otimização da hidratação e equilíbrio eletrolítico',
+    'Maior concentração durante atividades físicas',
+    'Nutrição adaptada para cada fase do treinamento',
+    'Melhoria da saúde intestinal e digestão',
+    'Definição muscular mais aparente',
+    'Aumento da motivação e disciplina alimentar'],
     process: [
       {
         title: 'Avaliação Atlética Específica',
@@ -93,7 +94,7 @@ O programa inclui estratégias de periodização nutricional, onde adaptamos a a
     title: 'Reeducação Alimentar',
     subtitle: 'Desenvolva uma relação saudável e sustentável com a comida para toda a vida',
     icon: React.createElement(Heart, { className: "text-white", size: 32 }),
-    duration: '60 min por consulta',
+    duration: '40-60 min por consulta',
     sessions: 'Acompanhamento mensal',
     rating: '4.9/5 estrelas',
     description: `A Reeducação Alimentar é um processo transformador que vai muito além de dietas restritivas. É uma jornada de autoconhecimento que visa estabelecer uma relação saudável, equilibrada e prazerosa com a alimentação, promovendo mudanças duradouras no seu estilo de vida.
@@ -102,14 +103,14 @@ Nosso programa foca na compreensão dos gatilhos emocionais relacionados à comi
 
 O processo inclui educação nutricional abrangente, onde você aprende sobre os diferentes grupos alimentares, como combinar alimentos para otimizar a saciedade e energia, e como adaptar a alimentação às diferentes situações do cotidiano. O objetivo é que você se torne autônomo nas suas escolhas alimentares, mantendo o equilíbrio sem abrir mão do prazer de comer.`,
     benefits: [
-      'Desenvolvimento de uma relação saudável com a comida',
+      'Relação saudável e sem culpa com a comida',
       'Perda de peso natural e sustentável',
-      'Redução da compulsão alimentar e ansiedade',
-      'Melhoria da autoestima e confiança',
-      'Aumento da energia e vitalidade',
-      'Melhoria da digestão e funcionamento intestinal',
-      'Maior flexibilidade alimentar em situações sociais',
-      'Estabelecimento de hábitos saudáveis duradouros'
+      'Controle da compulsão alimentar e ansiedade',
+      'Aumento da autoestima e confiança',
+      'Mais energia e vitalidade no dia a dia',
+      'Melhora digestiva e redução de inchaço',
+      'Flexibilidade alimentar em eventos sociais',
+      'Hábitos saudáveis para a vida toda'
     ],
     process: [
       {
@@ -133,7 +134,7 @@ O processo inclui educação nutricional abrangente, onde você aprende sobre os
 
   // Tratamentos Estéticos
   'harmonizacao-facial': {
-    title: 'Harmonização Facial',
+    title: 'Criolipolíse',
     subtitle: 'Realce sua beleza natural com técnicas avançadas e resultados harmoniosos',
     icon: React.createElement(Sparkles, { className: "text-white", size: 32 }),
     duration: '90-120 min por sessão',
