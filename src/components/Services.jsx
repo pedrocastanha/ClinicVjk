@@ -104,7 +104,7 @@ const Services = () => {
                   className="w-full border-amber-500 text-amber-700 hover:bg-amber-50 cursor-pointer smooth-transition cursor-pointer"
                   onClick={() => {
                       navigate(`/tratamento/${service.link}`);
-                      setTimeout(() => window.scrollTo(0, 0), 100); // scrolla pro topo após navegação
+                      setTimeout(() => window.scrollTo(0, 0), 100);
                     }}                
                 >
                   Saiba Mais
@@ -149,7 +149,10 @@ const Services = () => {
                 <Button 
                   variant="outline" 
                   className="w-full border-amber-500 text-amber-700 hover:bg-amber-50 cursor-pointer "
-                  onClick={() => navigate(`/tratamento/${service.link}`)}
+                  onClick={() => {
+                      navigate(`/tratamento/${service.link}`);
+                      setTimeout(() => window.scrollTo(0, 0), 100);
+                    }}    
                 >
                   Saiba Mais
                   <ArrowRight className="ml-2" size={16} />

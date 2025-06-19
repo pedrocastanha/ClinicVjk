@@ -15,7 +15,7 @@ const TreatmentPage = ({ treatment }) => {
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center jusstify-between">
             <Button
               variant="ghost"
               onClick={() => navigate('/')}
@@ -24,7 +24,6 @@ const TreatmentPage = ({ treatment }) => {
               <ArrowLeft size={20} />
               <span>Voltar ao Início</span>
             </Button>
-            
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 gradient-gold rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-sm">EV</span>
